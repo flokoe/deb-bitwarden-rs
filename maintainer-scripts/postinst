@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+  configure)
+    mkdir -p /var/log/bitwarden_rs/
+    systemctl --quiet daemon-reload
+
+    echo "Adding user bitwarden_rs and creating data directory /var/lib/bitwarden_rs ..."
+    mkdir -p /var/lib/bitwarden_rs
+    #useradd --system -d /var/lib/bitwarden_rs -s /usr/bin/nologin bitwarden_rs > /dev/null
+    adduser --quiet --system --group --no-create-home --home /var/lib/bitwarden_rs \
+    --gecos "bitwarden_rs user" --shell /usr/bin/nologin bitwarden_rs
+    chown bitwarden_rs: /var/lib/bitwarden_rs
+    chown bitwarden_rs: /var/log/bitwarden_rs/
+    chmod 0750 /var/lib/bitwarden_rs
+
+    echo ""
+    echo "##########"
+    echo "#"
+    echo "#   Remember to configure the server via its environment-variables under /etc/bitwarden_rs/env"
+    echo "#   After that, enable the server via 'systemctl enable bitwarden_rs.service'"
+    echo "#   Start the server via 'systemctl start bitwarden_rs.service'"
+    echo "#"
+    echo "##########"
+    echo ""
+
+    exit 0
+esac
