@@ -21,7 +21,7 @@ ProtectHome=true
 ProtectSystem=strict
 # Only allow writes to the following directory and set it to the working directory (user and password data are stored here)
 WorkingDirectory=/var/lib/bitwarden_rs
-ReadWriteDirectories=/var/lib/bitwarden_rs /var/log/bitwarden
+ReadWriteDirectories=/var/lib/bitwarden_rs /var/log/bitwarden_rs
 
 [Install]
 WantedBy=multi-user.target
