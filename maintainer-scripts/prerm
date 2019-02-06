@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+  remove)
+    systemctl --quiet --no-reload disable --now bitwarden_rs.service
+
+    exit 0
+esac
