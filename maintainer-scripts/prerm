@@ -3,7 +3,8 @@ set -e
 
 case "$1" in
   remove)
-    systemctl --quiet --no-reload disable --now bitwarden_rs.service
+    systemctl --quiet stop bitwarden_rs.service
+    systemctl --quiet disable bitwarden_rs.service
 
     exit 0
 esac
