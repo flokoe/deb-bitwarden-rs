@@ -1,2 +1,2 @@
-# deb-bitwarden_rs
-A Debian package repository for bitwarden_rs
+# deb-bitwarden-rs
+A Debian package repository for bitwarden-rs

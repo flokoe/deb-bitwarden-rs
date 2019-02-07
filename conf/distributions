@@ -1,5 +1,5 @@
-Origin: deb-bitwarden_rs
-Label: deb-bitwarden_rs
+Origin: deb-bitwarden-rs
+Label: deb-bitwarden-rs
 Suite: stable
 Codename: stretch
 Architectures: amd64
