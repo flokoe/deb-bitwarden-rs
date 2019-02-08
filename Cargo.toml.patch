@@ -2,7 +2,7 @@
 +++ Cargo.toml.new	2019-02-07 16:50:31.158649203 +0100
 @@ -1,6 +1,6 @@
  [package]
--name = "bitwarden_rs"
+-name = "bitwarden-rs"
 -version = "1.0.0"
 +name = "bitwarden-rs"
 +version = "1.6.1"
@@ -25,12 +25,12 @@
 +section = "net"
 +priority = "optional"
 +assets = [
-+  ["target/release/bitwarden_rs", "usr/bin/", "755"],
-+  ["README.md", "usr/share/doc/bitwarden_rs/README.md", "644"],
-+  ["env", "etc/bitwarden_rs/env", "644"],
-+  ["bitwarden_rs.service", "etc/systemd/system/", "644"],
++  ["target/release/bitwarden-rs", "usr/bin/", "755"],
++  ["README.md", "usr/share/doc/bitwarden-rs/README.md", "644"],
++  ["env", "etc/bitwarden-rs/env", "644"],
++  ["bitwarden-rs.service", "etc/systemd/system/", "644"],
 +]
 +maintainer-scripts = "maintainer-scripts"
 +conf-files = [
-+  "/etc/bitwarden_rs/env"
++  "/etc/bitwarden-rs/env"
 +]
