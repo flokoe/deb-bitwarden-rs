@@ -5,4 +5,4 @@ Codename: stretch
 Architectures: amd64
 Components: main
 Description: Debian bitwarden_rs packages
-SignWith: FD76200FE186113202BFD0CD7E9DE7A9B2040D58
+SignWith: 987588E32D6A7E1F2710AB969E7A341273E1E769
