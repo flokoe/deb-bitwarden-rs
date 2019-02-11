@@ -2,7 +2,7 @@
 +++ Cargo.toml.new	2019-02-07 16:50:31.158649203 +0100
 @@ -1,6 +1,6 @@
  [package]
--name = "bitwarden-rs"
+-name = "bitwarden_rs"
 -version = "1.0.0"
 +name = "bitwarden-rs"
 +version = "1.6.1"
