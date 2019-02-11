@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: deb-bitwarden-rs
+Label: deb-bitwarden-rs
+Suite: stable
+Codename: stretch
+Date: Mon, 11 Feb 2019 10:15:24 UTC
+Architectures: amd64
+Components: main
+Description: Debian bitwarden_rs packages
+MD5Sum:
+ 347fe7f43ec2e1213de14de6950379d3 880 main/binary-amd64/Packages
+ 906b2e9f4296d1f4b49108126ca93d0d 578 main/binary-amd64/Packages.gz
+ 3330aec94fd490f54bd66bc753ed27e2 143 main/binary-amd64/Release
+SHA1:
+ 1bc3f3e9255ef44dcc46c7eff8d0df60dae06724 880 main/binary-amd64/Packages
+ ae47cb785d3db02146dabc21e3f252b24fd4ed43 578 main/binary-amd64/Packages.gz
+ f0a8cae1a0b0c8a98c379f6466cc8d482e75cfe5 143 main/binary-amd64/Release
+SHA256:
+ 05c85437807b14790c6a933235e566f5f9282f66676a347e3e787580ae9d177c 880 main/binary-amd64/Packages
+ be0eccfff47d92e0b5f6829c46b79b40a7d72d7f7c397a8a024d26ea4d8c7d9f 578 main/binary-amd64/Packages.gz
+ 6b3b990e13ad878c1d7531f4c4afc76c43a8451c123b4e020f1ed8da09f8012e 143 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEmHWI4y1qfh8nEKuWnno0EnPh52kFAlxhS0EACgkQnno0EnPh
+52mFqw//QjQcFifyzuHop2dqdtJ6E9dGihWVQgZX6q1KuT3kqKe2lvLzvSF5tp3V
+zPbhyQ1HqgVFl0H8K/pHt7NMKm7i/XMQlpzphhRCMfxoxXOI7UIXNRLu+qYkR7Cp
+JyY9hunSMufdd2uxLYj2parfatmhxKgBQxjo9BF72zyUv9Um+QtMP99X5axO1IE8
+2fIWaCxsV2r5GkQCW/lh1ijFP52pLcgAws4/Kfq5i6Z27tqV17Qnuw3YgJcGlCmC
+e2SszgVD9CHutrv+DTCwxViifgQKMdx94II/6aYRWLPPLKe9yF7RNOM/35GEbFpG
+/BEN+PREEREv9rOzaGS53a5XC1GOcxkSuqfB51si9yHl9/H8+XUl21u4/fud4s34
+O+l7D/0xMNkXVXNj6yVwud6qF4Lq23Y8LJc/oIL1RzHmMDW9aJfTFS+EQAri4y9B
+Sst1VeaNm7Hi34ydiq9vHqUy1qc9NYfD0T0yIxsllZ7oGnL4uIiSv9Zp8O6bDClX
+ZjkAuY/ejOo88zZHUZ2qI2Mc9AJ4lnhYzL00qfWZrQ5qbOrom41gCkttznnnxgBn
+rOMgyK5G+BbAmiOR1EYH+szBMMmGWygAQD/F4dt3O2Evo3WCha5iW0rA1EeA4NqN
+Dp1sBxKZt0dbLFuvKs9VCoErlyF2/8DAZymsV2usbf7fwY1wbOw=
+=gcqK
+-----END PGP SIGNATURE-----

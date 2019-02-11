@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: deb-bitwarden-rs
+Label: deb-bitwarden-rs
+Architecture: amd64
+Description: Debian bitwarden_rs packages
