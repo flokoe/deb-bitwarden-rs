@@ -6,12 +6,16 @@ At this moment this repository only contains bitwarden_rs v1.6.1 for Debian Stre
 # Install
 Get the public GPG key of this repository:
 ```
-curl https://raw.githubusercontent.com/flokoe/deb-bitwarden-rs/deb/deb-bitwarden-rs.gpg.key | apt-key add -
+curl https://raw.githubusercontent.com/flokoe/deb-bitwarden-rs/deb/deb-bitwarden-rs.gpg.key | \
+apt-key add -
 ```
 Add this repository to apt's search list:
 ```
 apt install apt-transport-https
-echo "deb [arch=amd64] https://raw.githubusercontent.com/flokoe/deb-bitwarden-rs/deb stretch main" > /etc/apt/sources.list.d/deb-bitwarden-rs.list
+
+echo "deb [arch=amd64] https://raw.githubusercontent.com/flokoe/deb-bitwarden-rs/deb stretch main" > \
+/etc/apt/sources.list.d/deb-bitwarden-rs.list
+
 apt update
 ```
 Install bitwarden_rs:
