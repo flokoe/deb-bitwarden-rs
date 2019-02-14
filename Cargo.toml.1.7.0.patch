@@ -1,0 +1,35 @@
+--- Cargo.toml	2019-02-14 12:46:59.766379988 +0100
++++ Cargo.toml.new	2019-02-14 16:02:40.309461153 +0100
+@@ -1,6 +1,6 @@
+ [package]
+-name = "bitwarden_rs"
+-version = "1.0.0"
++name = "bitwarden-rs"
++version = "1.7.0"
+ authors = ["Daniel García <dani-garcia@users.noreply.github.com>"]
+ edition = "2018"
+ 
+@@ -107,3 +107,23 @@
+ lettre = { git = 'https://github.com/lettre/lettre', rev = 'c988b1760ad81' }
+ lettre_email = { git = 'https://github.com/lettre/lettre', rev = 'c988b1760ad81' }
+ 
++[package.metadata.deb]
++maintainer = "Florian Koehler <koehler.florian@gmx.de>"
++license-file = [ "LICENSE.txt", "0" ]
++depends = "$auto"
++extended-description = """\
++This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients,\
++perfect for self-hosted deployment where running the official resource-heavy service might not be ideal."""
++revision = "1"
++section = "net"
++priority = "optional"
++assets = [
++  ["target/release/bitwarden-rs", "usr/bin/", "755"],
++  ["README.md", "usr/share/doc/bitwarden-rs/README.md", "644"],
++  ["env-1.7.0", "etc/bitwarden-rs/env", "644"],
++  ["bitwarden-rs.service", "etc/systemd/system/", "644"],
++]
++maintainer-scripts = "maintainer-scripts"
++conf-files = [
++  "/etc/bitwarden-rs/env"
++]
