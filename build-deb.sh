@@ -56,7 +56,7 @@ rsync -a bitwarden_rs-$release/./ . && rm -r bitwarden_rs-$release
 
 # Patch Cargo.toml with current version number and cargo-deb specific options
 echo "Patching Cargo.toml ..."
-patch --quiet Cargo.toml < Cargo.toml.patch
+patch --quiet Cargo.toml < Cargo.toml.$release.patch
 
 # Compile and packages crate
 echo "Start building..."
