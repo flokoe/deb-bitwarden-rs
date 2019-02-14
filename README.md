@@ -1,7 +1,7 @@
 # bitwarden_rs Debian Package Repository
 deb-bitwarden-rs is a Debian repository for more convenient installation and updating of [bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) on debian based Linux distributions.
 
-At this moment this repository only contains bitwarden_rs v1.6.1 for Debian Stretch and the amd64 architecture.
+At this moment this repository only contains bitwarden_rs v1.7.0 for Debian Stretch and the amd64 architecture.
 
 # Install
 Get the public GPG key of this repository:
