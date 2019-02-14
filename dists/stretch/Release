@@ -2,19 +2,19 @@ Origin: deb-bitwarden-rs
 Label: deb-bitwarden-rs
 Suite: stable
 Codename: stretch
-Date: Mon, 11 Feb 2019 10:15:24 UTC
+Date: Thu, 14 Feb 2019 15:41:02 UTC
 Architectures: amd64
 Components: main
 Description: Debian bitwarden_rs packages
 MD5Sum:
- 347fe7f43ec2e1213de14de6950379d3 880 main/binary-amd64/Packages
- 906b2e9f4296d1f4b49108126ca93d0d 578 main/binary-amd64/Packages.gz
+ 931438afe4ac56f2cb948790a67898e2 880 main/binary-amd64/Packages
+ 8282ff0f648feb86f38e944c1dfe4bd7 578 main/binary-amd64/Packages.gz
  3330aec94fd490f54bd66bc753ed27e2 143 main/binary-amd64/Release
 SHA1:
- 1bc3f3e9255ef44dcc46c7eff8d0df60dae06724 880 main/binary-amd64/Packages
- ae47cb785d3db02146dabc21e3f252b24fd4ed43 578 main/binary-amd64/Packages.gz
+ c3887a2e7e71d1f36e949faba9b92de3ac10f8ac 880 main/binary-amd64/Packages
+ 1b5e934f346f07904e2e5ed56aa126c55c1cc3f0 578 main/binary-amd64/Packages.gz
  f0a8cae1a0b0c8a98c379f6466cc8d482e75cfe5 143 main/binary-amd64/Release
 SHA256:
- 05c85437807b14790c6a933235e566f5f9282f66676a347e3e787580ae9d177c 880 main/binary-amd64/Packages
- be0eccfff47d92e0b5f6829c46b79b40a7d72d7f7c397a8a024d26ea4d8c7d9f 578 main/binary-amd64/Packages.gz
+ bc5b6f8134a17ebcccd899cd2b51f7324cedd6252a9cdc0c0f7320dd55ab0ddf 880 main/binary-amd64/Packages
+ eaa7b84bf2304f6ecc81914448d25529522283ec664040f460df10a1cdc73e87 578 main/binary-amd64/Packages.gz
  6b3b990e13ad878c1d7531f4c4afc76c43a8451c123b4e020f1ed8da09f8012e 143 main/binary-amd64/Release

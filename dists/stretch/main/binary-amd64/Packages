@@ -1,19 +1,19 @@
 Package: bitwarden-rs
-Version: 1.6.1-5
+Version: 1.7.0-1
 Architecture: amd64
 Vcs-Browser: https://github.com/dani-garcia/bitwarden_rs
 Vcs-Git: https://github.com/dani-garcia/bitwarden_rs
 Standards-Version: 3.9.4
 Maintainer: Florian Koehler <koehler.florian@gmx.de>
-Installed-Size: 13145
-Depends: libgcc1 (>= 1:6.3.0), libssl1.1 (>= 1.1.0j), libc6 (>= 2.24)
+Installed-Size: 14253
+Depends: libc6 (>= 2.24), libgcc1 (>= 1:6.3.0), libssl1.1 (>= 1.1.0j)
 Priority: optional
 Section: net
-Filename: pool/main/b/bitwarden-rs/bitwarden-rs_1.6.1-5_amd64.deb
-Size: 3636272
-SHA256: 56edd0582879c0901dec0b7bed80f65279171cec9f0661c22a0628ce8d785ae7
-SHA1: d77f533b307f6753fdfdb20befc0927ada97c44c
-MD5sum: 3ccf42e3bd38b0265f961df55038f16c
+Filename: pool/main/b/bitwarden-rs/bitwarden-rs_1.7.0-1_amd64.deb
+Size: 3878320
+SHA256: 761cbe58099b69759cad23157745b75f36ad95abe7798b39d0e894a7253857dd
+SHA1: 49e4f9c91aff3b8fcf7a30734d95652445747c3a
+MD5sum: a559a3183d911b8c58cde0dc9218bf91
 Description: [generated from Rust crate bitwarden-rs]
  This is a Bitwarden server API implementation written in Rust compatible with
  upstream Bitwarden clients,perfect for self-hosted deployment where running the
