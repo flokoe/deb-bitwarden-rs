@@ -27,7 +27,7 @@
 +assets = [
 +  ["target/release/bitwarden-rs", "usr/bin/", "755"],
 +  ["README.md", "usr/share/doc/bitwarden-rs/README.md", "644"],
-+  ["env", "etc/bitwarden-rs/env", "644"],
++  ["env-1.6.1", "etc/bitwarden-rs/env", "644"],
 +  ["bitwarden-rs.service", "etc/systemd/system/", "644"],
 +]
 +maintainer-scripts = "maintainer-scripts"
