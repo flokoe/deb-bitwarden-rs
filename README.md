@@ -6,7 +6,7 @@ At this moment this repository only contains bitwarden_rs v1.7.0 for Debian Stre
 # Install
 Install bitwarden_rs:
 ```
-apt install bitwarden-rs
+dpkg -i bitwarden-rs
 ```
 **Notice:** The package and binary was renamed to "bitwarden-rs" (with a dash instead of an underscore) due to debian package naming restrictions.
 
